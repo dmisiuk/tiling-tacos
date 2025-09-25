@@ -61,10 +61,10 @@ Ctrl + Cmd + h/j/k/l        Resize window
 
 ### Window States  
 ```
-Ctrl + Alt + f              Toggle fullscreen
-Ctrl + Alt + t              Toggle float
-Ctrl + Alt + b              Balance space
-Ctrl + Alt + r              Rotate space
+Ctrl + Cmd + f              Toggle fullscreen (yabai-style)
+Ctrl + Cmd + t              Toggle float
+Ctrl + Cmd + b              Balance space
+Ctrl + Cmd + r              Rotate space
 Ctrl + Alt + Space          Cycle layouts (BSP ↔ Stack)
 ```
 
