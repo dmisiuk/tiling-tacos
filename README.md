@@ -19,8 +19,8 @@ cd tiling-tacos
 
 **Most used shortcuts:**
 - `Ctrl + Alt + hjkl` - Navigate windows  
-- `Ctrl + Alt + f` - Toggle fullscreen
-- `Ctrl + Alt + Return` - Open terminal
+- `Ctrl + Cmd + f` - Toggle fullscreen
+- `Ctrl + Cmd + Return` - Open terminal
 
 ## 🎯 What's This About?
 
@@ -61,16 +61,16 @@ Ctrl + Cmd + h/j/k/l        Resize window
 
 ### Window States  
 ```
-Ctrl + Alt + f              Toggle fullscreen
-Ctrl + Alt + t              Toggle float
-Ctrl + Alt + b              Balance space
-Ctrl + Alt + r              Rotate space
+Ctrl + Cmd + f              Toggle fullscreen (yabai-style)
+Ctrl + Cmd + t              Toggle float
+Ctrl + Cmd + b              Balance space
+Ctrl + Cmd + r              Rotate space
 Ctrl + Alt + Space          Cycle layouts (BSP ↔ Stack)
 ```
 
 ### Quick Launch
 ```
-Ctrl + Alt + Return         Open/Focus Terminal (Warp)
+Ctrl + Cmd + Return         Open/Focus Terminal (Warp)
 Ctrl + Alt + Shift + Return New Terminal window
 Ctrl + Alt + c              Open/Focus VS Code
 Ctrl + Alt + Cmd + r        Restart yabai + skhd

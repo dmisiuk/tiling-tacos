@@ -25,17 +25,17 @@ ctrl + cmd - l : yabai -m window --resize right:50:0 || yabai -m window --resize
 
 # ===== WINDOW STATES =====
 
-# Toggle fullscreen (ctrl+alt+f - safe from conflicts)
-ctrl + alt - f : yabai -m window --toggle zoom-fullscreen
+# Toggle fullscreen (ctrl+cmd+f - yabai style, overrides macOS native)
+ctrl + cmd - f : yabai -m window --toggle zoom-fullscreen
 
-# Toggle float (ctrl+alt+t)
-ctrl + alt - t : yabai -m window --toggle float && yabai -m window --grid 4:4:1:1:2:2
+# Toggle float (ctrl+cmd+t)
+ctrl + cmd - t : yabai -m window --toggle float && yabai -m window --grid 4:4:1:1:2:2
 
-# Balance space (ctrl+alt+b)
-ctrl + alt - b : yabai -m space --balance
+# Balance space (ctrl+cmd+b)
+ctrl + cmd - b : yabai -m space --balance
 
-# Rotate space (ctrl+alt+r)
-ctrl + alt - r : yabai -m space --rotate 270
+# Rotate space (ctrl+cmd+r)
+ctrl + cmd - r : yabai -m space --rotate 270
 
 # ===== LAYOUTS =====
 
@@ -59,8 +59,8 @@ ctrl + alt - space : yabai -m space --layout $(yabai -m query --spaces --space |
 
 # ===== SAFE UTILITIES =====
 
-# Quick terminal (ctrl+alt+return - safe shortcut) - Open/focus Warp
-ctrl + alt - return : open -a /Applications/Warp.app
+# Quick terminal (ctrl+cmd+return - consistent pattern) - Open/focus Warp
+ctrl + cmd - return : open -a /Applications/Warp.app
 
 # New Warp window (ctrl+alt+shift+return)
 ctrl + alt + shift - return : open -na /Applications/Warp.app
