@@ -59,8 +59,8 @@ ctrl + alt - space : yabai -m space --layout $(yabai -m query --spaces --space |
 
 # ===== SAFE UTILITIES =====
 
-# Quick terminal (ctrl+alt+return - safe shortcut) - Open/focus Warp
-ctrl + alt - return : open -a /Applications/Warp.app
+# Quick terminal (ctrl+cmd+return - consistent pattern) - Open/focus Warp
+ctrl + cmd - return : open -a /Applications/Warp.app
 
 # New Warp window (ctrl+alt+shift+return)
 ctrl + alt + shift - return : open -na /Applications/Warp.app
