@@ -20,6 +20,7 @@ cd tiling-tacos
 **Most used shortcuts:**
 - `Ctrl + Alt + hjkl` - Navigate windows  
 - `Ctrl + Cmd + f` - Toggle fullscreen
+- `Ctrl + Cmd + m` - Mirror/flip windows (180°)
 - `Ctrl + Cmd + Return` - Open terminal
 
 ## 🎯 What's This About?
@@ -64,7 +65,8 @@ Ctrl + Cmd + h/j/k/l        Resize window
 Ctrl + Cmd + f              Toggle fullscreen (yabai-style)
 Ctrl + Cmd + t              Toggle float
 Ctrl + Cmd + b              Balance space
-Ctrl + Cmd + r              Rotate space
+Ctrl + Cmd + r              Rotate space (270°)
+Ctrl + Cmd + m              Mirror/flip space (180°)
 Ctrl + Alt + Space          Cycle layouts (BSP ↔ Stack)
 ```
 
