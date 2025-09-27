@@ -37,6 +37,9 @@ ctrl + cmd - b : yabai -m space --balance
 # Rotate space (ctrl+cmd+r)
 ctrl + cmd - r : yabai -m space --rotate 270
 
+# Mirror/flip space 180 degrees (ctrl+cmd+m)
+ctrl + cmd - m : yabai -m space --rotate 180
+
 # ===== LAYOUTS =====
 
 # Cycle layouts (ctrl+alt+space)
