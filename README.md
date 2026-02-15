@@ -153,8 +153,59 @@ brew services restart skhd
 ## 📋 Requirements
 
 - macOS 13+ (Ventura or later)
-- Homebrew
+- **Homebrew** OR **Nix** package manager
 - Terminal app (works great with Warp, iTerm2, or default Terminal)
+
+## 🐧 Nix Installation
+
+If you prefer Nix over Homebrew:
+
+### Simple (nix profile)
+```bash
+# Install packages
+nix profile install nixpkgs#yabai nixpkgs#skhd nixpkgs#jq
+
+# Copy configs
+cp configs/.yabairc ~/.yabairc
+cp configs/.skhdrc ~/.skhdrc
+chmod +x ~/.yabairc
+
+# Start services
+yabai --start-service
+skhd --start-service
+```
+
+### Declarative (nix-darwin)
+
+For fully declarative management, use [nix-darwin](https://github.com/LnL7/nix-darwin):
+
+```nix
+# In your darwin-configuration.nix or flake
+{
+  services.yabai = {
+    enable = true;
+    config = {
+      layout = "bsp";
+      window_gap = 5;
+      top_padding = 5;
+      bottom_padding = 5;
+      left_padding = 5;
+      right_padding = 5;
+    };
+    extraConfig = builtins.readFile ./configs/.yabairc;
+  };
+
+  services.skhd = {
+    enable = true;
+    skhdConfig = builtins.readFile ./configs/.skhdrc;
+  };
+}
+```
+
+This approach:
+- Manages yabai/skhd as launchd services automatically
+- Ensures configs are applied declaratively
+- Integrates with your nix-darwin system config
 
 ## 🤝 Contributing
 

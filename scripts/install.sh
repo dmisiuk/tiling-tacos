@@ -13,10 +13,11 @@ if ! command -v brew &> /dev/null; then
     exit 1
 fi
 
-# Install yabai and skhd if not already installed
-echo "📦 Installing yabai and skhd..."
+# Install yabai, skhd, and jq if not already installed
+echo "📦 Installing yabai, skhd, and jq..."
 brew list yabai &>/dev/null || brew install koekeishiya/formulae/yabai
 brew list skhd &>/dev/null || brew install koekeishiya/formulae/skhd
+brew list jq &>/dev/null || brew install jq
 
 # Backup existing configs if they exist
 if [ -f ~/.yabairc ]; then
