@@ -66,6 +66,23 @@ yabai -m rule --add app="^QuickTime Player$" manage=off
 
 # Small utility windows
 yabai -m rule --add app="^Digital Color Meter$" manage=off
+yabai -m rule --add app="^Archive Utility$" manage=off
+yabai -m rule --add app="^Keychain Access$" manage=off
+yabai -m rule --add app="^Font Book$" manage=off
+yabai -m rule --add app="^ColorSync Utility$" manage=off
+yabai -m rule --add app="^Karabiner" manage=off
+yabai -m rule --add app="^CleanMyMac" manage=off
+yabai -m rule --add app="^gg$" manage=off
+
+# Messaging apps - typically want floating
+# yabai -m rule --add app="^Telegram$" manage=off
+yabai -m rule --add app="^Discord$" manage=off
+yabai -m rule --add app="^Slack$" manage=off
+yabai -m rule --add app="^Messages$" manage=off
+yabai -m rule --add app="^WhatsApp$" manage=off
+yabai -m rule --add app="^Zoom$" manage=off
+yabai -m rule --add app="^FaceTime$" manage=off
+yabai -m rule --add app="^Skype$" manage=off
 
 # JetBrains dialogs
 yabai -m rule --add app="^jetbrains-" title="^$" manage=off

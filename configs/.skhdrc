@@ -87,4 +87,11 @@ ctrl + alt + cmd - r : yabai --restart-service && skhd --restart-service
     "System Preferences"
     "System Settings"
     "Spotlight"
+#    "Telegram"
+#    "Discord"
+#    "Slack"
+    "Messages"
+#    "WhatsApp"
+    "Zoom"
+    "FaceTime"
 ]
