@@ -73,6 +73,7 @@ yabai -m rule --add app="^ColorSync Utility$" manage=off
 yabai -m rule --add app="^Karabiner" manage=off
 yabai -m rule --add app="^CleanMyMac" manage=off
 yabai -m rule --add app="^gg$" manage=off
+yabai -m rule --add app="^Wispr Flow$" manage=off
 
 # Messaging apps - typically want floating
 # yabai -m rule --add app="^Telegram$" manage=off
